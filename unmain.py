@@ -2,7 +2,7 @@ import matplotlib.image as img
 import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.cluster.vq import kmeans, whiten
-import sys
+# import sys
 
 def extract(image_path, how_many_colours):
   image = img.imread(image_path)
@@ -32,7 +32,9 @@ def extract(image_path, how_many_colours):
   plt.show()
 
 
-image_as_path = sys.argv[1]
-number_of_colours = int(sys.argv[2])
-extract(image_as_path, number_of_colours)
+# image_as_path = sys.argv[1]
+# number_of_colours = int(sys.argv[2])
+
+# extract(image_as_path, number_of_colours)
+
 # extract('C:\\Users\\Samhita Joshi\\Downloads\\monalisa.jpg', 7)
